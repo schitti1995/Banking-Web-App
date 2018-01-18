@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+td, th, .xyz {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 4px;
+}

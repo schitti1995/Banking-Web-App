@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+
+    <title>OBS Registration</title>
+
+    <link href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic" rel="stylesheet">
+    
+      <link href="../assets/css/toolkit-inverse.css" rel="stylesheet">
+      <link href="../assets/css/register.css" rel="stylesheet">
+    
+    <link href="../assets/css/application.css" rel="stylesheet">
+
+    <style>
+      /* note: this is a hack for ios iframe for bootstrap themes shopify page */
+      /* this chunk of css is not part of the toolkit :) */
+      body {
+        width: 1px;
+        min-width: 100%;
+        *width: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 sidebar">
+        <nav class="sidebar-nav">
+          <div class="sidebar-header">
+            <button class="nav-toggler nav-toggler-md sidebar-toggler" type="button" data-toggle="collapse" data-target="#nav-toggleable-md">
+              <span class="sr-only">Toggle nav</span>
+            </button>
+            <a class="sidebar-brand img-responsive" href="../index.html">
+              <span class="icon icon-leaf sidebar-brand-icon"></span>
+            </a>
+          </div>
+
+          <div class="collapse nav-toggleable-md" id="nav-toggleable-md">
+            <form class="sidebar-form">
+              <input class="form-control" type="text" placeholder="Search...">
+              <button type="submit" class="btn-link">
+                <span class="icon icon-magnifying-glass"></span>
+              </button>
+            </form>
+            <ul class="nav nav-pills nav-stacked flex-column">
+              <li class="nav-header">Dashboards</li>
+              <li class="nav-item">
+                <a class="nav-link active" href="../order-history/index.html">Register for Online Banking</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="../index.html">Overview</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../order-history/index.html">Order history</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link "href="../fluid/index.html">Fluid layout</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="../icon-nav/index.html">Icon nav</a>
+              </li>
+              <li class="nav-header">More</li>
+              <li class="nav-item">
+                <a class="nav-link "href="../docs/index.html">
+                  Toolkit docs
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://getbootstrap.com" target="blank">
+                  Bootstrap docs
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="../index-light/index.html">Light UI</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#docsModal" data-toggle="modal">
+                  Example modal
+                </a>
+              </li>
+            </ul>
+            <hr class="visible-xs mt-3">
+          </div>
+        </nav>
+      </div>
+
+      <div class="col-md-9 content">
+        <div class="dashhead">
+  <div class="dashhead-titles">
+    <h2 class="dashhead-title">Prove your identity</h2>
+  </div>
+
+  <div>
+    <br><br><br><br>
+    <p style="font-size:125%">Enter the User Id and Temporary PIN the bank would have posted to you.</p>
+  </div>
+  <br><br><br><br>
+  <div id="InitLogin">
+    <form method="POST" action="Registration2.html">
+      <label>User ID:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+      <input type="text" style="border:3px solid green" autofocus size="20" class="textbox">
+      <br>
+      <label>Temporary PIN:&nbsp;&nbsp; </label>
+      <input type="text" style="border:3px solid green" size="20" class="textbox">
+      <br><br>
+      <div class="random">
+        <input type="submit" style="background-color:;" name="submit" value="Proceed">
+      </div>
+    </form>
+  </div>
+
+  <br>
+
+  <div class="Forgot">
+    <a href="#"> Forgot PIN? Contact a bank employee?</a> 
+  </div>
+  <br><br>
+  <div class="note">
+    <h3 class="dashhead-title"> Forgot User ID?</h3>
+    <hr>
+    <li>If you have misplaced it, we strongly recommed you to look for the post we sent to you.</li>
+    <li>User ID is 8 characters long</li>
+    <li>There are 3 numbers, 4 letters of the English alphabet, and 1 special character.</li>
+    <li>For security purposes, we don't electronically let you retrieve the User ID.</li>
+    <li>Doesn't ring a bell? Please visit the nearest Devonshire Bank. We shall see you through.</li>
+  </div></div></div>
+</body>
+</html>

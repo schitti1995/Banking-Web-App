@@ -1,0 +1,58 @@
+.title-margin {
+    margin-bottom: 16px;
+}
+
+.label-to {
+    font-size: 120%;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.label-from {
+    font-size: 120%;
+    margin-top: 5px;
+}
+
+.calender-icon > .icon{
+    left:65px;
+}
+
+.calender {
+    width:70%;
+    float: right;
+}
+
+.calender-width {
+    width: 50%;
+}
+
+.sort-by-label {
+    float: left;
+    font-size: 120%;
+    margin-top: 20px;
+    margin-right: 8px;
+}
+
+.sort-by-form {
+    float: left;
+}
+
+.dispute-transaction {
+    float:right;
+}
+
+.disput-margin {
+    margin-right: 16px;
+}
+
+.centerred-pager {
+    text-align: center;
+}
+
+.total-green {
+    color: green;
+}
+
+.total-red {
+    color: red;
+}

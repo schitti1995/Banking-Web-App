@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="OBSXDemo_Git">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="formbeanfactory-3.0.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/formbeanfactory-3.0.0/formbeanfactory-3.0.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-validator-1.6.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-validator-1.6/commons-validator-1.6">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="genericdao-3.0.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/genericdao-3.0.2/genericdao-3.0.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jstl-1.1.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jstl-1.1.2/jstl-1.1.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mysql-connector-java-5.1.39-bin.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mysql-connector-java-5.1.39-bin/mysql-connector-java-5.1.39-bin">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="standard-1.1.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/standard-1.1.2/standard-1.1.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jstl-1.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jstl-1.2/jstl-1.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jsoup-1.10.3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jsoup-1.10.3/jsoup-1.10.3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="servlet-api.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/servlet-api/servlet-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="OBSXDemo_Git"/>
+        <property name="java-output-path" value="/OBSXDemo_Git/build/classes"/>
+    </wb-module>
+</project-modules>

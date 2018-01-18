@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+
+  <title>OBS Registration</title>
+
+  <link href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+    crossorigin="anonymous">
+  <link href="./assets/css/toolkit-light.css" rel="stylesheet">
+  <link href="./assets/css/register.css" rel="stylesheet">
+  <link href="./assets/css/application.css" rel="stylesheet">
+
+  <style>
+    /* note: this is a hack for ios iframe for bootstrap themes shopify page */
+    /* this chunk of css is not part of the toolkit :) */
+
+    body {
+      width: 1px;
+      min-width: 100%;
+      *width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 sidebar">
+        <nav class="sidebar-nav">
+          <div class="sidebar-header">
+            <button class="nav-toggler nav-toggler-md sidebar-toggler" type="button" data-toggle="collapse" data-target="#nav-toggleable-md">
+              <span class="sr-only">Toggle nav</span>
+            </button>
+            <a class="sidebar-brand img-responsive" href="check_balance.jsp">
+              <img src="logo.png" style="width: 200px; height: auto;">
+            </a>
+          </div>
+
+          <div class="collapse nav-toggleable-md" id="nav-toggleable-md">
+            <form class="sidebar-form">
+              <input class="form-control" type="text" placeholder="Search..">
+              <button type="submit" class="btn-link">
+                <span class="icon icon-magnifying-glass"></span>
+              </button>
+            </form>
+
+            <ul class="nav nav-pills nav-stacked flex-column">
+              <li class="nav-header">Dashboards</li>
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Register for Online Banking</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link " href="./index.html">Overview</a>
+              </li>
+            <hr class="visible-xs mt-3">
+          </div>
+        </nav>
+      </div>
+
+      <div class="col-md-9 content">
+          <h1>Register</h1>
+          <p style="font-size:125%;">Some Information has already been fiiled</p>
+
+          <h2> Personal Information </h3>
+
+          <form>
+            <div class="row">
+              <div class="col-5 form-group">
+                <label for="firstName">First Name: </label>
+                <input type="text" class="form-control" value="Christian">
+              </div>
+
+              <div class="col-5 form-group pull-right">
+                <label>Last Name: </label>
+                <input type="text" class="form-control" value="Bale">
+              </div>
+
+              <div class="col-5 form-group">
+                <label>Address Line 1: </label>
+                <input type="text" class="form-control" value="417, South Craig Street">
+              </div>
+
+              <div class="col-5 form-group pull-right">
+                <label>Address Line 2(Optional): </label>
+                <input type="text" class="form-control" value="">
+              </div>
+
+              <div class="col-5 form-group">
+                <label>Zip Code: </label>
+                <input type="text" class="form-control" value="15213">
+              </div>
+
+              <div class="col-5 form-group pull-right">
+                <label>City:</label>
+                <input type="text" class="form-control" value="Pittsburgh">
+              </div>
+
+              <div class="col-5 form-group">
+                <label>State:</label>
+                <input type="text" class="form-control" value="PA">
+              </div>
+
+              <div class="col-5 form-group pull-right">
+                <label>Phone number:</label>
+                <input type="text" class="form-control" value="123-456-7890">
+              </div>
+              
+              <div class="col-5 form-group">
+                <label>Email address:</label>
+                <input type="text" class="form-control" value="something@gmail.com">
+              </div>
+            </div>
+          </form>
+            <br> 
+
+            <h2> Bank Details</h2>
+            <div class="col-6 form-group row">
+              <label>Card Number:</label>
+              <input type="text" class="form-control" value="xxxx-xxxx-xxxx-xxxx">
+            </div>
+
+            <div class="col-6 form-group row">
+              <label>Bank Branch Address: </label>
+              <input type="text" class="form-control" value="1234, Murray Avenue, PA, Pittsburgh">
+            </div>
+
+            <div class="col-6 form-group row">
+              <label>Routing Number:</label>
+              <input type="text" class="form-control" size="20">
+            </div>
+
+            <div class="col-6 form-group row">
+              <label>Swift Code:</label>
+              <input type="text" class="form-control" size="20">
+            </div>
+            
+            <br>
+            <label>
+              <strong>
+                What accounts would you like to link?
+                Check the boxes and enter account numbers.
+              </strong>
+            </label>
+
+            <div class="form-control">
+              
+                <input type="checkbox">
+                <label>Checking Account:</label>
+                <input type="text" class="form-control" placeholder="xxxxxxxxxx">
+                <br>
+                <input type="checkbox">
+                <label> Spend Account:</label>
+                <input type="text" class="form-control" placeholder="xxxxxxxxxx">
+            </div>
+
+            <br>
+
+            <h2>Set up Credentials </h2>
+            <div class="col-6 form-group row">
+              <label>User ID:</label>
+              <input type="text" class="form-control" value="aigul" size="20" readonly>
+            </div>
+
+            <div class="col-6 form-group row">
+              <label>Set a PIN:</label>
+              <input type="text" class="form-control" size="20">
+            </div>
+
+            <div class="col-6 form-group row">
+              <label>Confirm PIN:</label>
+              <input type="text" size="20" class="form-control">
+            </div>
+
+            <br>
+
+            <h2> Security Questions </h2>
+              <div class="form-control">
+                <label>Select the 1st security question:</label>
+                <select class="form-control">
+                  <option>What is your nickname?</option>
+                  <option>What is the name of your first pet?</option>
+                  <option>What's your favorite food?</option>
+                  <option>What was the name of your middle school best friend?</option>
+                </select>
+
+                <label>Your answer:</label>
+                <input type="text" class="form-control" size="40">
+                
+                <br>
+                <label>Select the 2nd security question:</label>
+                <select class="form-control">
+                  <option>Set a 5 digit PIN</option>
+                  <option>Set an alphanumeric password</option>
+                </select>
+
+                <label>Your answer:</label>
+                <input type="text" class="form-control" size="40">
+              </div>
+          </form>
+
+          <br>
+          <h2>Set up two factor Authentication</h2>
+          <p>You could provide one/both of your phone number and email address</p>
+
+          <form action="Confirmation.html">
+            <div class='form-control'>
+            <input type="checkbox">
+            
+            <label>Email address:</label>
+            <input class="form-control" type="text" size="25">
+            
+            <br>
+            
+            <input type="checkbox">
+            <label>Phone Number:</label>
+            
+            <input type="text" class="form-control" size="14">
+            <br>            
+            </div>
+            <br>
+            <input type="submit" style="font-size:110%;" class="btn btn-primary" name="submit">
+          </form>
+</body>
+</html>

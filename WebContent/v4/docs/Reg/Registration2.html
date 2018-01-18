@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+
+    <title>OBS Registration</title>
+
+    <link href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic" rel="stylesheet">
+    
+      <link href="../assets/css/toolkit-inverse.css" rel="stylesheet">
+      <link href="../assets/css/register.css" rel="stylesheet">
+    
+    <link href="../assets/css/application.css" rel="stylesheet">
+
+    <style>
+      /* note: this is a hack for ios iframe for bootstrap themes shopify page */
+      /* this chunk of css is not part of the toolkit :) */
+      body {
+        width: 1px;
+        min-width: 100%;
+        *width: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 sidebar">
+        <nav class="sidebar-nav">
+          <div class="sidebar-header">
+            <button class="nav-toggler nav-toggler-md sidebar-toggler" type="button" data-toggle="collapse" data-target="#nav-toggleable-md">
+              <span class="sr-only">Toggle nav</span>
+            </button>
+            <a class="sidebar-brand img-responsive" href="../index.html">
+              <span class="icon icon-leaf sidebar-brand-icon"></span>
+            </a>
+          </div>
+
+          <div class="collapse nav-toggleable-md" id="nav-toggleable-md">
+            <form class="sidebar-form">
+              <input class="form-control" type="text" placeholder="Search...">
+              <button type="submit" class="btn-link">
+                <span class="icon icon-magnifying-glass"></span>
+              </button>
+            </form>
+            <ul class="nav nav-pills nav-stacked flex-column">
+              <li class="nav-header">Dashboards</li>
+              <li class="nav-item">
+                <a class="nav-link active" href="../order-history/index.html">Register for Online Banking</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="../index.html">Overview</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../order-history/index.html">Order history</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link "href="../fluid/index.html">Fluid layout</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="../icon-nav/index.html">Icon nav</a>
+              </li>
+              <li class="nav-header">More</li>
+              <li class="nav-item">
+                <a class="nav-link "href="../docs/index.html">
+                  Toolkit docs
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://getbootstrap.com" target="blank">
+                  Bootstrap docs
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="../index-light/index.html">Light UI</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#docsModal" data-toggle="modal">
+                  Example modal
+                </a>
+              </li>
+            </ul>
+            <hr class="visible-xs mt-3">
+          </div>
+        </nav>
+      </div>
+
+  <div class="col-md-9 content">
+        <div class="dashhead">
+  <div class="dashhead-titles">
+    <h6 class="header111">Welcome, Mr.Chitti</h6>
+    <h6 class="header111"><a href="Registration.html">Logout</a></h6>
+    <br><br>
+    <h2 class="dashhead-title" style="font-size:300%">Register to OBS</h2>
+    <br>
+    <p style="font-size:125%;">Some of your details have been autofilled for you. All fields are mandatory</p>
+  </div>
+
+  <br><br><br>
+  <div id="Details">
+      <h3 style="color:yellow"> Personal Information </h3>
+      <br>
+      <label>First Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+      <input type="text" style="border:2px solid red" size="20" class="textbox"  readonly placeholder="Sai">
+      <br>
+      <label>Last Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+      <input type="text" style="border:2px solid red" size="20" class="textbox" readonly placeholder="Chitti">
+      <br>
+      <label>Resedential address:&nbsp; </label>
+      <input type="text" style="border:2px solid red" autofocus size="60" class="textbox" value="417, South Craig Street">
+      <br>
+      <label>Area Pin Code: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+      <input type="text" style="border:2px solid red" autofocus size="20" class="textbox" value="15213">
+      <br>
+      <label>City:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+      <input type="text" style="border:2px solid red;" autofocus size="20" class="textbox" value="Pittsburgh">
+      <br>
+      <label>State:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+      <input type="text" style="border:2px solid red" autofocus size="20" class="textbox" value="PA">
+      <br>
+      <label>Phone number:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+      <input type="text" style="border:2px solid red" size="12" class="textbox" value="123-456-7890">
+      <br>
+      <label>Email address:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+      <input type="text" style="border:2px solid red" size="25" class="textbox" value="something@gmail.com">
+      <br>
+      <hr>
+      <br>
+      <h3 style="color:yellow"> Bank Details</h3>
+      <br>
+      <label>Card Number:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+      <input type="text" style="border:2px solid red" size="15" class="textbox">
+      <br>
+      <label>Bank Branch Address:&nbsp;&nbsp; </label>
+      <input type="text" style="border:2px solid red" size="30" class="textbox" value="1234, Murray Avenue, PA, Pittsburgh">
+      <br>
+      <label>Routing Number:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+      <input type="text" style="border:2px solid red" size="20" class="textbox">
+      <br>
+      <label>Swift Code:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+      <input type="text" style="border:2px solid red" size="20" class="textbox">
+      <br><br>
+      <p style="color:orange">What accounts would you like to link? &nbsp;Check the boxes and enter account numbers</p>
+
+      <input type="checkbox"> <label>Checking Account:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+      <input type="text" style="border:2px solid red" size="20" class="textbox" placeholder="xxxxxxxxxx"><br>
+      <input type="checkbox"><label>Spend Account:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+      <input type="text" style="border:2px solid red" size="20" class="textbox" placeholder="xxxxxxxxxx"><br>
+      <input type="checkbox"><label>Growth Account:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+      <input type="text" style="border:2px solid red" size="20" class="textbox" placeholder="xxxxxxxxxx">
+      <br>
+      <hr>
+      <br>
+      <h3 style="color:yellow"> Set up Credentials </h3>
+      <br>
+      <label>User ID:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+      <input type="text" style="border:2px solid red" size="20" class="textbox">
+      <br>
+      <label>Set a PIN:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+      <input type="text" style="border:2px solid red" size="20" class="textbox">
+      <br>
+      <label>Confirm PIN:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+      <input type="text" style="border:2px solid red" size="20" class="textbox">
+      <br>
+      <hr>
+      <br>
+      <h3 style="color:yellow"> Security Questions </h3>
+      <br>
+      <label>Select the 1st security question:&nbsp;&nbsp;</label>
+      <select>
+      <option>What is your nickname?</option>
+      <option>What is the name of your first pet?</option>
+      <option>What's your favorite food?</option>
+      <option>What was the name of your middle school best friend?</option>
+      </select>
+      <br>
+      <label>Your answer:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+      <input type="text" style="border:2px solid red" size="40" class="textbox">
+      <br><br>
+      <label>Select the 2nd security question:&nbsp;&nbsp;</label>
+      <select>
+      <option>Write down a random 5 digit number</option>
+      <option>Set a password</option>
+      </select>
+      <br>
+      <label>Your answer:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+      <input type="text" style="border:2px solid red" size="40" class="textbox">
+      <br>
+      <hr>
+      <br>
+      <h3 style="color:yellow"> Set up two factor Authentication?</h3>
+      <form>
+        <input type="radio" checked>Yes<br>
+        &nbsp;&nbsp;<input type="checkbox"><label>Email address:&nbsp;&nbsp;&nbsp;&nbsp; </label>
+        <input type="text" style="border:2px solid red" size="20" class="textbox">
+        <br>
+        &nbsp;&nbsp;<input type="checkbox"><label>Phone Number:&nbsp;&nbsp;&nbsp; </label>
+        <input type="text" style="border:2px solid red" size="20" class="textbox">
+        <br>
+        <input type="radio"> Not now. Maybe Later<br>
+      </form> 
+      <br>
+      <br><br>
+      <form method="POST" action="#">
+      <div class="random">
+        <input type="submit" style="background-color:;" name="submit" value="Register">
+      </div>
+    </form>
+  </div>
+
+
+
+
+
+</body>
+</html>  
